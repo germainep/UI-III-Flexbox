@@ -259,3 +259,14 @@ address a {
   text-align: center;
   padding: 40px 0;
 }
+
+
+/*******************
+/*
+/*Services Page
+*******************/
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+}
