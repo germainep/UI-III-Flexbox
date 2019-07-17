@@ -195,24 +195,22 @@ nav a {
 }
 
 .cta {
-  font-size: 80px;
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 90px;
+  text-align: center;
   margin: auto;
 }
 
 .cta button {
+  width: 150px;
+  height: 25px;
   background-color: #fff;
   border-radius: 0;
   border: 1px solid black;
-  transition: top 0.5s ease-out, box-shadow 3s ease, background-color 0.25;
+  margin: 0 auto;
 }
 
-/* .cta button:hover {
-  background-color: dodgerblue;
-  box-shadow: 10px 50px 25px 10px rgba(100, 100, 100, 0.3);
-  position: relative;
-  top: -38px;
-  transition: top 0.5s ease-out, box-shadow 1s ease, background-color 0.25s;
-} */
 
 /* Information */
 .information {
@@ -228,8 +226,8 @@ nav a {
   justify-content: space-between;
 }
 
-div .first {
-  margin: 0;
+.col-2 .descriptions {
+  width: 45%;
 }
 
 .middle-img {
@@ -238,11 +236,15 @@ div .first {
   margin: 40px 0;
 }
 
-.three-col-text {
-  display: inline-block;
-  width: 30%;
-  margin-left: 4.6%;
+.col-3 {
+  display: flex;
+  justify-content: space-between;
 }
+
+.col-3 .descriptions {
+  width: 30%;
+}
+
 
 /* Contact */
 .contact {
