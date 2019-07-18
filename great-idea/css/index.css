@@ -158,7 +158,7 @@ h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -282,6 +282,7 @@ main {
 }
 
 .service-offerings {
+  align-content: space-around;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -291,13 +292,23 @@ main {
 
 .offering-box {
   display: flex;
-  background-color: #aaa;
+  background-color: #eee;
   border: 1px solid black;
   width: 45%;
   padding: 15px;
+  margin: 25px 0;
   flex-flow: column wrap;
+  justify-content: flex-start;
 }
 
 .offering-box h2 {
   font-size: 1.1em;
+}
+
+.offering-box button {
+  border-radius: 5px;
+  width: 150px;
+  padding: 8px 0;
+  margin: 1.25em 0 0 0;
+  background-color: #fff;
 }
