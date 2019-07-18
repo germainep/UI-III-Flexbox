@@ -211,7 +211,6 @@ nav a {
   margin: 0 auto;
 }
 
-
 /* Information */
 .information {
   display: flex;
@@ -245,7 +244,6 @@ nav a {
   width: 30%;
 }
 
-
 /* Contact */
 .contact {
   margin-bottom: 20px;
@@ -260,7 +258,6 @@ address a {
   padding: 40px 0;
 }
 
-
 /*******************
 /*
 /*Services Page
@@ -269,4 +266,38 @@ address a {
 main {
   display: flex;
   flex-flow: column wrap;
+}
+
+.services-header-img {
+  width: 100%;
+}
+
+.services-header {
+  border-bottom: 1px solid #000;
+  padding: 35px 0;
+}
+
+.services-header h1 {
+  font-size: 2em;
+}
+
+.service-offerings {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 25px 0;
+  border-bottom: 1px solid #000;
+}
+
+.offering-box {
+  display: flex;
+  background-color: #aaa;
+  border: 1px solid black;
+  width: 45%;
+  padding: 15px;
+  flex-flow: column wrap;
+}
+
+.offering-box h2 {
+  font-size: 1.1em;
 }
